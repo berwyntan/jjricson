@@ -1,12 +1,12 @@
 # Project photos
 
-Replace these files with your own — keep the same filenames:
+Current photos on the landing page:
 
-| File | Used for | Suggested look |
-| --- | --- | --- |
-| `hero.jpg` | Full-bleed landing hero | Wide landscape, ~2400px wide |
-| `living.jpg` | Large gallery image | Living / main space |
-| `kitchen.jpg` | Gallery | Kitchen / dining |
-| `bedroom.jpg` | Gallery | Bedroom / soft space |
+| File | Used for |
+| --- | --- |
+| `hero.jpg` | Full-bleed hero (staircase living room) |
+| `boardroom.jpg` | Large gallery image |
+| `kitchen.jpg` | Gallery |
+| `office.jpg` | Gallery |
 
-Temporary stock photos are in place until you add yours. JPG or WebP both work; if you switch to `.webp`, update the paths in `index.html`.
+Replace any file with a new photo of the same name to update the site. Landscape shots work best; the page crops with `object-fit: cover`.
