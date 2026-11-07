@@ -151,12 +151,12 @@ a {
   z-index: 1;
   width: min(100%, 42rem);
   padding: clamp(5.5rem, 14vh, 8rem) clamp(1.25rem, 4vw, 2.75rem)
-    clamp(3rem, 8vh, 5rem);
+    clamp(4rem, 10vh, 6rem);
   animation: rise 1.1s var(--ease) both;
 }
 
 .brand {
-  margin: 0 0 1.25rem;
+  margin: 0;
   max-width: 12ch;
   font-family: var(--font-display);
   font-size: clamp(2.15rem, 6.5vw, 4.35rem);
@@ -235,10 +235,8 @@ a {
   background: rgba(247, 245, 241, 0.08);
 }
 
-.approach,
-.spaces,
-.contact {
-  padding: clamp(4.5rem, 12vh, 7.5rem) 0;
+.spaces {
+  padding: clamp(2.5rem, 6vh, 4rem) 0 clamp(4rem, 10vh, 6rem);
 }
 
 .section-inner {
@@ -320,7 +318,7 @@ a {
 
 .gallery {
   width: min(100% - 2.5rem, var(--max));
-  margin: 2.75rem auto 0;
+  margin: 0 auto;
   display: grid;
   gap: 1.25rem;
 }
