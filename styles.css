@@ -84,10 +84,11 @@ a {
 .logo {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 0.82rem;
+  font-size: clamp(0.68rem, 1.6vw, 0.82rem);
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  max-width: 14rem;
+  max-width: min(52vw, 18rem);
+  line-height: 1.25;
 }
 
 .nav {
